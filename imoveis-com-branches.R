@@ -10,3 +10,7 @@ df <- read.csv("imoveis.csv", header=TRUE, sep=";")
 # Gráficos -----------------------------------------------------------
 
 # Medidas ------------------------------------------------------------
+
+mean(df$imposto_anual)
+median(df$imposto_anual)
+sd(df$imposto_anual)
